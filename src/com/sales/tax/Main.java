@@ -3,6 +3,7 @@ package com.sales.tax;
 public class Main {
 
     public static void main(String[] args) {
+        // Adding the first set of input
         AddItems addItemsList1 = new AddItems();
         addItemsList1.addSalesItem("Book", 12.49, true, false);
         addItemsList1.addSalesItem("Music CD", 14.99, false, false);
@@ -11,6 +12,7 @@ public class Main {
         addItemsList1.printItems();
         System.out.println("________________________________________\n");
 
+        // Adding the second set of input
         AddItems addItemsList2 = new AddItems();
         addItemsList2.addSalesItem("Imported Chocolate", 10.00, true, true);
         addItemsList2.addSalesItem("Imported Perfume ", 47.50, false, true);
@@ -18,6 +20,7 @@ public class Main {
         addItemsList2.printItems();
         System.out.println("________________________________________\n");
 
+        //// Adding the third set of input
         AddItems addItemsList3 = new AddItems();
         addItemsList3.addSalesItem("Imported Perfume", 27.99, false, true);
         addItemsList3.addSalesItem("Perfume", 18.99, false, false);

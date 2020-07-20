@@ -5,6 +5,7 @@ public class TaxAndPrice {
     private double price;
     private int quantity;
 
+   // Constructor for the quantity, tax, price for the sales items
     public TaxAndPrice(double tax, double price, int quantity) {
         this.tax = tax;
         this.price = price;

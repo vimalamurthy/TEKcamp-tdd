@@ -6,10 +6,12 @@ import java.util.ArrayList;
 public class AddItems {
     private ArrayList<SalesItem> salesItems=new ArrayList<SalesItem>();
 
+    // Constructor to add the sales item to the Arraylist
     public void addSalesItem(String itemName, double itemPrice, boolean isExempted, boolean isImported){
         this.salesItems.add(new SalesItem(itemName, itemPrice, isExempted, isImported));
     }
 
+    // Method to print items after calculating tax
     public void printItems(){
         DecimalFormat df = new DecimalFormat("#,##0.00");
         double total =0, totalTax =0;

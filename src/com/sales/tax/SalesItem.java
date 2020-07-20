@@ -6,6 +6,7 @@ public class SalesItem {
     private final boolean isExempted;
     private final boolean isImported;
 
+    // Constructor to create the sale item
     public SalesItem(String itemName, double itemPrice, boolean isExempted, boolean isImported) {
         this.itemName = itemName;
         this.itemPrice = itemPrice;
@@ -29,6 +30,7 @@ public class SalesItem {
         return isImported;
     }
 
+    //Method to calculate the tax depending on the criteria (exempted and imported)
     public TaxAndPrice calculatePrice(int qty){
         double totalPrice=0;
         double tax =0;
