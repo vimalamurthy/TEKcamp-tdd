@@ -17,33 +17,20 @@
 <h2>
     2. Planning the Solution
 </h2>
-* 
-*
-*
-*
-*
-*
-*
-*
+* Penning down the different cases to check
+* Using the different classes 
+* Deciding on the data structure to use
+
 <h2>
     3. Executing the Plan
 </h2>
-*
-*
-*
-*
-*
-*
-*
-*
+* Writing the test cases and implement code
+* Enhance test cases to accept the input
+* Using the Math functions to get accurate output
+* Refactor code to meet requirements
+
 <h2>
     4. Reflection / Refactor
 </h2>
-*
-*
-*
-*
-*
-*
-*
-*
+* More code refactoring
+* Implementing more patterns
