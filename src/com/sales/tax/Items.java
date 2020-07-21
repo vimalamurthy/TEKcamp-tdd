@@ -3,7 +3,7 @@ package com.sales.tax;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
-public class AddItems {
+public class Items {
     private ArrayList<SalesItem> salesItems=new ArrayList<SalesItem>();
 
     // Constructor to add the sales item to the Arraylist
